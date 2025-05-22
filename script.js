@@ -8,7 +8,7 @@ const chatbotCloseBtn = document.querySelector(".chatbot header span");
 let userMessage = "";
 let mensagemPensando = null;
 
-const API_KEY = "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"; 
+const API_KEY = "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"; 
 
 const criarMensagem = (mensagem, className) => {
     const li = document.createElement("li");
