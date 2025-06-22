@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Onwave</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400&display=swap">
-    <script src="script.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Onwave</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400&display=swap" rel="stylesheet" />
+  <script src="script.js" defer></script>
 </head>
 <body class="show-chatbot">
-    <button class="chatbot-toggler">
-        <span class="material-symbols-outlined">mode_comment</span>
-        <span class="material-symbols-outlined">close</span>
-    </button>
-    <div class="chatbot">
-        <header>
-            <div class="header-content">
-            <img src="/img/icone-onwave.png" alt="On Wave" class="logo-img">
-            <h2>On Wave</h2>
-            </div>
-            <span class="material-symbols-outlined">close</span>
-        </header>
-        <ul class="chatbox">
-            <li class="chat incoming">
-                <div class="bot-img">
-                   <img src="/img/icone-onwave.png" alt="On Wave">
-                </div>
-                <p>Eai surfista! <br> Sou o On Wave</p>
-            </li>
-        </ul>
-        <div class="chat-input">
-            <textarea placeholder="Enter a message..." required></textarea>
-            <span id="send-btn" class="material-symbols-outlined">send</span>
+  <button class="chatbot-toggler">
+    <span class="material-symbols-outlined">mode_comment</span>
+    <span class="material-symbols-outlined">close</span>
+  </button>
+
+  <div class="chatbot">
+    <header>
+      <div class="header-content">
+        <img src="img/icone-onwave.png" alt="On Wave" class="logo-img" />
+        <h2>On Wave</h2>
+      </div>
+      <span class="material-symbols-outlined">close</span>
+    </header>
+
+    <ul class="chatbox">
+      <li class="chat incoming">
+        <div class="bot-img">
+          <img src="img/icone-onwave.png" alt="On Wave" />
         </div>
+        <p>Eai surfista! <br> Sou o On Wave</p>
+      </li>
+    </ul>
+
+    <div class="chat-input">
+      <textarea placeholder="Digite uma mensagem..." required></textarea>
+      <span class="material-symbols-outlined">send</span>
     </div>
+  </div>
 </body>
 </html>
